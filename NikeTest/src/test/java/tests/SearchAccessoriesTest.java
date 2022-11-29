@@ -24,9 +24,9 @@ public class SearchAccessoriesTest {
         mainPage.enterSearchText("Air force 1 custom");
         mainPage.searchClick();
         mainPage.setRedFilter();
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         mainPage.setMenFilter();
-        Thread.sleep(1000);
+        Thread.sleep(2000);
         mainPage.enterFirstCard();
     }
 
